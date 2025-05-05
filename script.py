@@ -29,7 +29,7 @@ subprocess.run(["git", "fetch", "--depth=1", "origin", f"{branch}:{branch}"], ch
 subprocess.run(["git", "checkout", branch], check=True)
 
 # prepare network config
-network_config_url = "https://ak-conf.hypergryph.com/config/prod/official/network_config"
+network_config_url = "https://ak-conf-tw.gryphline.com/config/prod/official/network_config"
 network_config = json.loads(requests.get(network_config_url).json()["content"])
 network_urls = network_config["configs"][network_config["funcVer"]]["network"]
 version_url = network_urls["hv"].replace("{0}", "Android")
