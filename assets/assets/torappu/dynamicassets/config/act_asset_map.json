@@ -1,6 +1,6 @@
 {
   "isTrimed": true,
-  "code": 349,
+  "code": 359,
   "aspects": {
     "ZONE_MAP": {
       "act25sre_zone1": {
@@ -35,9 +35,25 @@
         "resPath": "Activity/[UC]act26sre/ZoneMap/zone_map_act26sre_zone2",
         "activity": "act26sre"
       },
+      "act17mini_zone1": {
+        "resPath": "Activity/[UC]act17mini/ZoneMaps/zone_map_act17mini_zone1",
+        "activity": "act17mini"
+      },
       "permanent_sidestory_3_zone2": {
         "resPath": "Retro/permanent_sidestory_3_Code_Of_Brawl/zone_map_permanent_sidestory_3_zone2",
         "activity": "permanent_sidestory_3_code_of_brawl"
+      },
+      "act27sre_zone1": {
+        "resPath": "Activity/[UC]act27sre/ZoneMaps/zone_map_act27sre_zone1",
+        "activity": "act27sre"
+      },
+      "act27sre_zone2": {
+        "resPath": "Activity/[UC]act27sre/ZoneMaps/zone_map_act27sre_zone2",
+        "activity": "act27sre"
+      },
+      "act27sre_zone3": {
+        "resPath": "Activity/[UC]act27sre/ZoneMaps/zone_map_act27sre_zone3",
+        "activity": "act27sre"
       },
       "act35side_zone1": {
         "resPath": "Activity/[UC]act35side/ZoneMaps/zone_map_act35side_zone1",
@@ -58,9 +74,19 @@
     },
     "START_BATTLE_BUTTON": {},
     "ITEM_ICON": {},
-    "TIMELY_DROP": {},
+    "TIMELY_DROP": {
+      "exDrop_act17mini": {
+        "resPath": "Activity/[UC]act17mini/TimelyDrop/exDrop_act17mini",
+        "activity": "act17mini"
+      }
+    },
     "STAGE_BTN": {},
-    "ZONE_MAP_PLUGIN": {},
+    "ZONE_MAP_PLUGIN": {
+      "act17mini": {
+        "resPath": "Activity/[UC]act17mini/Prefabs/MapPlugin/act17mini_map_plugin_holder",
+        "activity": "act17mini"
+      }
+    },
     "BATTLE_FINISH": {
       "act3fun": {
         "resPath": "UI/Activity/ActFun/Actfun3/BattleFinish/act3fun_battle_finish_view",
@@ -100,6 +126,22 @@
         "resPath": "Activity/[UC]act26sre/Prefabs/act26sre_template_shop",
         "activity": "act26sre"
       },
+      "templateshop_shop_act17mini": {
+        "resPath": "Activity/[UC]act17mini/Prefabs/Shop/act17mini_template_shop",
+        "activity": "act17mini"
+      },
+      "title_shop_act17mini": {
+        "resPath": "Activity/[UC]act17mini/Prefabs/Shop/act17mini_template_shop",
+        "activity": "act17mini"
+      },
+      "templateshop_shop_act27sre": {
+        "resPath": "Activity/[UC]act27sre/Prefabs/act27sre_template_shop",
+        "activity": "act27sre"
+      },
+      "title_shop_act27sre": {
+        "resPath": "Activity/[UC]act27sre/Prefabs/act27sre_template_shop",
+        "activity": "act27sre"
+      },
       "templateshop_shop_act35side": {
         "resPath": "Activity/[UC]act35side/Prefabs/act35side_template_shop",
         "activity": "act35side"
@@ -132,10 +174,15 @@
     "TEMPLATE_TRAP_VIEW": {},
     "DYNAMIC_PAGE": {},
     "TEMPLATE_MISSION": {
+      "act27sre_custom_mission_res_holder": {
+        "resPath": "Activity/[UC]act27sre/Prefabs/act27sre_mission_view_holder",
+        "activity": "act27sre"
+      },
       "act35side_custom_mission_res_holder": {
         "resPath": "Activity/[UC]act35side/Prefabs/Mission/act35side_mission_view_holder",
         "activity": "act35side"
       }
-    }
+    },
+    "CUSTOM_ZONE_CONTAINER": {}
   }
 }

@@ -1,0 +1,104 @@
+
+act17mini_entry_stage_keychain.png
+size: 88,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+keychain_01
+  rotate: false
+  xy: 2, 213
+  size: 75, 25
+  orig: 78, 28
+  offset: 1, 2
+  index: -1
+keychain_02
+  rotate: false
+  xy: 2, 119
+  size: 55, 37
+  orig: 59, 40
+  offset: 2, 1
+  index: -1
+keychain_03
+  rotate: true
+  xy: 49, 37
+  size: 36, 37
+  orig: 38, 39
+  offset: 1, 1
+  index: -1
+keychain_04
+  rotate: false
+  xy: 59, 111
+  size: 26, 34
+  orig: 28, 37
+  offset: 1, 1
+  index: -1
+keychain_05
+  rotate: true
+  xy: 57, 75
+  size: 34, 29
+  orig: 37, 32
+  offset: 1, 1
+  index: -1
+keychain_06
+  rotate: false
+  xy: 2, 158
+  size: 59, 31
+  orig: 63, 33
+  offset: 2, 1
+  index: -1
+keychain_07
+  rotate: false
+  xy: 2, 191
+  size: 64, 20
+  orig: 66, 23
+  offset: 1, 2
+  index: -1
+keychain_08
+  rotate: true
+  xy: 68, 147
+  size: 64, 14
+  orig: 67, 17
+  offset: 1, 2
+  index: -1
+keychain_09
+  rotate: false
+  xy: 2, 240
+  size: 78, 25
+  orig: 81, 27
+  offset: 1, 1
+  index: -1
+keychain_10
+  rotate: false
+  xy: 2, 88
+  size: 53, 29
+  orig: 56, 31
+  offset: 1, 1
+  index: -1
+keychain_11
+  rotate: false
+  xy: 2, 50
+  size: 45, 36
+  orig: 48, 40
+  offset: 2, 2
+  index: -1
+keychain_12
+  rotate: false
+  xy: 60, 4
+  size: 21, 31
+  orig: 24, 35
+  offset: 1, 2
+  index: -1
+keychain_13
+  rotate: false
+  xy: 29, 3
+  size: 29, 32
+  orig: 32, 36
+  offset: 2, 2
+  index: -1
+keychain_14
+  rotate: true
+  xy: 2, 2
+  size: 33, 25
+  orig: 37, 28
+  offset: 2, 2
+  index: -1
