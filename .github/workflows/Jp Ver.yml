@@ -47,7 +47,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config http.postBuffer 2147483648
           if [[ $GITHUB_EVENT_NAME == 'workflow_dispatch' ]]; then echo "FORCE=--force" >> $GITHUB_ENV; fi
-          sudo rm -rf /var/lib/apt/lists/*
+          sudo apt clean
+          sudo apt update
           python -m pip install -U requests
           sudo apt-get install -y ffmpeg
       - name: Update assets
