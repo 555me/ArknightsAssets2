@@ -17,7 +17,7 @@ parser.add_argument("filter", nargs="?", choices=["art", "audio"], default="art"
 parser.add_argument("--force", action="store_true")
 args = parser.parse_args()
 name_filter: typing.Callable[[str], bool] = (lambda i: "audio" in i) if args.filter == "audio" else (lambda i: "audio" not in i)
-branch = "cn" if args.filter == "cn" else "cn_audio"
+branch = "cn" if args.filter == "art" else "cn_audio"
 
 # checkout the actual asset branch
 subprocess.run(["git", "fetch", "--depth=1", "origin", f"{branch}:{branch}"], check=True)
