@@ -1,0 +1,55 @@
+
+act1vecb_entry_tower.png
+size: 620,1000
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img_boss_icon
+  rotate: true
+  xy: 351, 373
+  size: 270, 261
+  orig: 270, 261
+  offset: 0, 0
+  index: -1
+img_wall
+  rotate: false
+  xy: 338, 41
+  size: 255, 330
+  orig: 263, 343
+  offset: 4, 6
+  index: -1
+tower_01
+  rotate: false
+  xy: 2, 2
+  size: 328, 236
+  orig: 328, 236
+  offset: 0, 0
+  index: -1
+tower_02
+  rotate: false
+  xy: 2, 499
+  size: 347, 247
+  orig: 347, 247
+  offset: 0, 0
+  index: -1
+tower_03
+  rotate: false
+  xy: 2, 748
+  size: 354, 250
+  orig: 354, 250
+  offset: 0, 0
+  index: -1
+tower_04
+  rotate: false
+  xy: 2, 240
+  size: 334, 257
+  orig: 334, 257
+  offset: 0, 0
+  index: -1
+tower_05
+  rotate: true
+  xy: 358, 645
+  size: 353, 260
+  orig: 353, 260
+  offset: 0, 0
+  index: -1
