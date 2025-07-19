@@ -63,6 +63,18 @@
         "resPath": "Activity/[UC]act31sre/ZoneMaps/zone_map_act31sre_zone1",
         "activity": "act31sre"
       },
+      "act40side_zone3": {
+        "resPath": "Activity/[UC]act40side/ZoneMaps/zone_map_act40side_zone3",
+        "activity": "act40side"
+      },
+      "act40side_zone1": {
+        "resPath": "Activity/[UC]act40side/ZoneMaps/zone_map_act40side_zone1",
+        "activity": "act40side"
+      },
+      "act40side_zone2": {
+        "resPath": "Activity/[UC]act40side/ZoneMaps/zone_map_act40side_zone2",
+        "activity": "act40side"
+      },
       "permanent_sidestory_3_zone1": {
         "resPath": "Retro/permanent_sidestory_3_Code_Of_Brawl/zone_map_permanent_sidestory_3_zone1",
         "activity": "permanent_sidestory_3_code_of_brawl"
@@ -127,6 +139,14 @@
       "title_shop_act31sre": {
         "resPath": "Activity/[UC]act31sre/Prefabs/act31sre_template_shop",
         "activity": "act31sre"
+      },
+      "templateshop_shop_act40side": {
+        "resPath": "Activity/[UC]act40side/Prefabs/act40side_template_shop",
+        "activity": "act40side"
+      },
+      "title_shop_act40side": {
+        "resPath": "Activity/[UC]act40side/Prefabs/act40side_template_shop",
+        "activity": "act40side"
       }
     },
     "BATTLE": {},
@@ -207,6 +227,14 @@
       "act31sre_custom_mission_view_holder": {
         "resPath": "Activity/[UC]act31sre/Prefabs/act31sre_mission_view_holder",
         "activity": "act31sre"
+      },
+      "act40side_custom_mission_res_holder": {
+        "resPath": "Activity/[UC]act40side/Prefabs/act40side_mission_view_holder",
+        "activity": "act40side"
+      },
+      "act40side_custom_mission_view_holder": {
+        "resPath": "Activity/[UC]act40side/Prefabs/act40side_mission_view_holder",
+        "activity": "act40side"
       }
     },
     "CUSTOM_ZONE_CONTAINER": {}
