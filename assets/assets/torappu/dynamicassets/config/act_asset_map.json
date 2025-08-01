@@ -102,6 +102,18 @@
       "act38side_zone2": {
         "resPath": "Activity/[UC]act38side/ZoneMaps/zone_map_act38side_zone2",
         "activity": "act38side"
+      },
+      "act29sre_zone1": {
+        "resPath": "Activity/[UC]act29sre/ZoneMaps/zone_map_act29sre_zone1",
+        "activity": "act29sre"
+      },
+      "act29sre_zone2": {
+        "resPath": "Activity/[UC]act29sre/ZoneMaps/zone_map_act29sre_zone2",
+        "activity": "act29sre"
+      },
+      "act29sre_zone3": {
+        "resPath": "Activity/[UC]act29sre/ZoneMaps/zone_map_act29sre_zone3",
+        "activity": "act29sre"
       }
     },
     "START_BATTLE_BUTTON": {},
@@ -225,6 +237,14 @@
       "title_shop_act38side": {
         "resPath": "Activity/[UC]act38side/Prefabs/act38side_template_shop",
         "activity": "act38side"
+      },
+      "templateshop_shop_act29sre": {
+        "resPath": "Activity/[UC]act29sre/Prefabs/act29sre_template_shop",
+        "activity": "act29sre"
+      },
+      "title_shop_act29sre": {
+        "resPath": "Activity/[UC]act29sre/Prefabs/act29sre_template_shop",
+        "activity": "act29sre"
       }
     },
     "BATTLE": {},
@@ -264,6 +284,14 @@
       "act36side_food_handbook_page": {
         "resPath": "Activity/[UC]act36side/Prefabs/food_handbook_page",
         "activity": "act36side"
+      },
+      "act1vautochess_entry_page": {
+        "resPath": "Activity/[UC]act1vautochess/Prefabs/Entry/act1vautochess_entry_page",
+        "activity": "act1vautochess"
+      },
+      "act1vautochess_hudpage": {
+        "resPath": "UI/Activity/Act1VAutoChess/[PACK]act1vautochess_battle/UI/HUD/auto_chess_hud_page",
+        "activity": "act1vautochess"
       }
     },
     "TEMPLATE_MISSION": {
@@ -302,6 +330,22 @@
       "act38side_custom_mission_view_holder": {
         "resPath": "Activity/[UC]act38side/Prefabs/act38side_mission_view_holder",
         "activity": "act38side"
+      },
+      "act1vautochess_custom_mission_res_holder": {
+        "resPath": "Activity/[UC]act1vautochess/Prefabs/Mission/act1vautochess_mission_view_holder",
+        "activity": "act1vautochess"
+      },
+      "act1vautochess_custom_mission_view_holder": {
+        "resPath": "Activity/[UC]act1vautochess/Prefabs/Mission/act1vautochess_mission_view_holder",
+        "activity": "act1vautochess"
+      },
+      "act29sre_custom_mission_res_holder": {
+        "resPath": "Activity/[UC]act29sre/Prefabs/act29sre_mission_view_holder",
+        "activity": "act29sre"
+      },
+      "act29sre_custom_mission_view_holder": {
+        "resPath": "Activity/[UC]act29sre/Prefabs/act29sre_mission_view_holder",
+        "activity": "act29sre"
       }
     },
     "CUSTOM_ZONE_CONTAINER": {
