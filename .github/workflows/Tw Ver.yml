@@ -3,7 +3,8 @@ name: TW Download
 on:
   workflow_dispatch: null
   schedule:
-    - cron: 2 */6 */3 * *
+    - cron: 0 8 * * *
+    - cron: 0 5 * * 1,4
 
 concurrency:
   group: '${{ github.ref }}'
