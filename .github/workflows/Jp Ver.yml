@@ -3,7 +3,8 @@ name: JP Download new assets
 on:
   workflow_dispatch: null
   schedule:
-    - cron: 2 */6 */3 * *
+    - cron: 0 7 * * *
+    - cron: 0 1 * * 2,4
 
 concurrency:
   group: '${{ github.ref }}'
