@@ -3,7 +3,6 @@ name: TW Download
 on:
   workflow_dispatch: null
   schedule:
-    - cron: 0 8 * * *
     - cron: 0 5 * * 1,4
 
 concurrency:
