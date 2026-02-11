@@ -30,7 +30,7 @@ subprocess.run(["git", "checkout", branch], check=True)
 
 # prepare network config
 network_config_url = "https://game-config.hypergryph.com/api/remote_config/get_remote_config/1/prod/default/Windows/network_config"
-network_config = json.loads(requests.get(network_config_url).json())
+network_config = json.loads(requests.get(network_config_url))
 version_url = network_config["hv"].replace("{0}", "Windows")
 res_version = requests.get(version_url).json()["resVersion"]
 assets_url = network_config["hu"] + "/Windows/assets/" + res_version + "/"
