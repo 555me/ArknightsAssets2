@@ -35,6 +35,18 @@
         "resPath": "Activity/[UC]act3mainss/ZoneMap/zone_map_act3mainss_zone1",
         "activity": "act3mainss"
       },
+      "act38sre_zone3": {
+        "resPath": "Activity/[UC]act38sre/ZoneMaps/zone_map_act38sre_zone3",
+        "activity": "act38sre"
+      },
+      "act38sre_zone1": {
+        "resPath": "Activity/[UC]act38sre/ZoneMaps/zone_map_act38sre_zone1",
+        "activity": "act38sre"
+      },
+      "act38sre_zone2": {
+        "resPath": "Activity/[UC]act38sre/ZoneMaps/zone_map_act38sre_zone2",
+        "activity": "act38sre"
+      },
       "act39sre_zone1": {
         "resPath": "Activity/[UC]act39sre/ZoneMaps/zone_map_act39sre_zone1",
         "activity": "act39sre"
@@ -88,6 +100,14 @@
         "resPath": "Activity/[UC]act3mainss/Prefabs/act3mainss_template_shop",
         "activity": "act3mainss"
       },
+      "templateshop_shop_act38sre": {
+        "resPath": "Activity/[UC]act38sre/Prefabs/act38sre_template_shop",
+        "activity": "act38sre"
+      },
+      "title_shop_act38sre": {
+        "resPath": "Activity/[UC]act38sre/Prefabs/act38sre_template_shop",
+        "activity": "act38sre"
+      },
       "templateshop_shop_act39sre": {
         "resPath": "Activity/[UC]act39sre/Prefabs/act39sre_template_shop",
         "activity": "act39sre"
@@ -98,7 +118,16 @@
       }
     },
     "BATTLE": {},
-    "SQUAD_HOME_PLUGIN": {},
+    "SQUAD_HOME_PLUGIN": {
+      "act38sre": {
+        "resPath": "Activity/[UC]act38sre/Prefabs/SquadPlugin/act38sre_squad_firework_plugin_view",
+        "activity": "act38sre"
+      },
+      "act6bossrush": {
+        "resPath": "Activity/[UC]act6BossRush/Prefabs/act6bossrush_squad_plugin_view",
+        "activity": "act6bossrush"
+      }
+    },
     "HOME_TOPBAR": {},
     "HIDDEN_STAGE_TOAST": {
       "permanent_sidestory_15_dorothy's_vision": {
@@ -166,6 +195,14 @@
       "act3mainss_custom_mission_view_holder": {
         "resPath": "Activity/[UC]act3mainss/Prefabs/act3mainss_mission_view_holder",
         "activity": "act3mainss"
+      },
+      "act38sre_custom_mission_res_holder": {
+        "resPath": "Activity/[UC]act38sre/Prefabs/act38sre_mission_view_holder",
+        "activity": "act38sre"
+      },
+      "act38sre_custom_mission_view_holder": {
+        "resPath": "Activity/[UC]act38sre/Prefabs/act38sre_mission_view_holder",
+        "activity": "act38sre"
       },
       "act39sre_custom_mission_res_holder": {
         "resPath": "Activity/[UC]act39sre/Prefabs/act39sre_mission_view_holder",
