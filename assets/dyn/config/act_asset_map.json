@@ -146,6 +146,10 @@
       "act46side": {
         "resPath": "Activity/[UC]act46side/Prefabs/Trap/act46side_trap_squad_view",
         "activity": "act46side"
+      },
+      "act2break": {
+        "resPath": "Activity/[UC]act2break/Prefabs/act2break_squad_plugin_view",
+        "activity": "act2break"
       }
     },
     "HOME_TOPBAR": {},
