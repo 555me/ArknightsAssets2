@@ -31,9 +31,25 @@
         "resPath": "Activity/[UC]act49side/ZoneMaps/zone_map_act49side_zone2",
         "activity": "act49side"
       },
+      "act41sre_zone1": {
+        "resPath": "Activity/[UC]act41sre/ZoneMaps/zone_map_act41sre_zone1",
+        "activity": "act41sre"
+      },
+      "act41sre_zone2": {
+        "resPath": "Activity/[UC]act41sre/ZoneMaps/zone_map_act41sre_zone2",
+        "activity": "act41sre"
+      },
       "act20mini_zone1": {
         "resPath": "Activity/[UC]act20mini/ZoneMaps/zone_map_act20mini_zone1",
         "activity": "act20mini"
+      },
+      "act51side_zone1": {
+        "resPath": "Activity/[UC]act51side/ZoneMaps/zone_map_act51side_zone1",
+        "activity": "act51side"
+      },
+      "act51side_zone2": {
+        "resPath": "Activity/[UC]act51side/ZoneMaps/zone_map_act51side_zone2",
+        "activity": "act51side"
       }
     },
     "START_BATTLE_BUTTON": {},
@@ -61,6 +77,14 @@
         "resPath": "Activity/[UC]act49side/Prefabs/act49side_template_shop",
         "activity": "act49side"
       },
+      "templateshop_shop_act41sre": {
+        "resPath": "Activity/[UC]act41sre/Prefabs/act41sre_template_shop",
+        "activity": "act41sre"
+      },
+      "title_shop_act41sre": {
+        "resPath": "Activity/[UC]act41sre/Prefabs/act41sre_template_shop",
+        "activity": "act41sre"
+      },
       "templateshop_shop_act20mini": {
         "resPath": "Activity/[UC]act20mini/Prefabs/Shop/act20mini_template_shop",
         "activity": "act20mini"
@@ -68,6 +92,14 @@
       "title_shop_act20mini": {
         "resPath": "Activity/[UC]act20mini/Prefabs/Shop/act20mini_template_shop",
         "activity": "act20mini"
+      },
+      "templateshop_shop_act51side": {
+        "resPath": "Activity/[UC]act51side/Prefabs/act51side_template_shop",
+        "activity": "act51side"
+      },
+      "title_shop_act51side": {
+        "resPath": "Activity/[UC]act51side/Prefabs/act51side_template_shop",
+        "activity": "act51side"
       }
     },
     "BATTLE": {},
@@ -96,6 +128,14 @@
         "resPath": "Activity/[UC]act49side/Prefabs/act49side_mission_view_holder",
         "activity": "act49side"
       },
+      "act41sre_custom_mission_res_holder": {
+        "resPath": "Activity/[UC]act41sre/Prefabs/act41sre_mission_view_holder",
+        "activity": "act41sre"
+      },
+      "act41sre_custom_mission_view_holder": {
+        "resPath": "Activity/[UC]act41sre/Prefabs/act41sre_mission_view_holder",
+        "activity": "act41sre"
+      },
       "act2autochess_custom_mission_res_holder": {
         "resPath": "Activity/[UC]act2autochess/Prefabs/Mission/act2autochess_mission_view_holder",
         "activity": "act2autochess"
@@ -103,6 +143,14 @@
       "act2autochess_custom_mission_view_holder": {
         "resPath": "Activity/[UC]act2autochess/Prefabs/Mission/act2autochess_mission_view_holder",
         "activity": "act2autochess"
+      },
+      "act51side_custom_mission_res_holder": {
+        "resPath": "Activity/[UC]act51side/Prefabs/act51side_mission_view_holder",
+        "activity": "act51side"
+      },
+      "act51side_custom_mission_view_holder": {
+        "resPath": "Activity/[UC]act51side/Prefabs/act51side_mission_view_holder",
+        "activity": "act51side"
       }
     },
     "CUSTOM_ZONE_CONTAINER": {},
